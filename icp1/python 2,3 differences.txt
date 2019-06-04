@@ -1,0 +1,33 @@
+Differences between python2 and python3
+1)print statement differs :
+  In python2
+  print"hi"
+  In python3
+  print("hi")
+2)Integer division:
+  In python2
+   result of dividing two integers will itself be an integer
+   eg: 3/2 returns 1
+  In python3
+   integer division will always return float
+   eg:3/2 will return 1.5
+3)Dictionary methods
+  In python2 
+   dictionaries have methods iterkeys(),itervalues(),iteritems()
+  In python3
+   methods:keys(),values(),items()
+4)exec
+  In python2
+  exec is a statement
+  In python3
+  exec is a function
+5)long
+  In python2 
+  It has two integer types int and long
+  In python3
+  It has only int.
+6)apply()
+  In python2
+  It is used to call a function
+  In python3
+  apply() function is removed and here we call the function directly.  
